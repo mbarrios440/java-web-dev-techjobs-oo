@@ -20,7 +20,7 @@ public abstract class JobField {
     /**Custom Methods**/
     @Override
     public String toString() {
-        if (value.equals("")){
+        if (value.isEmpty()){
             return "Data not available";
         } else {
             return value;
